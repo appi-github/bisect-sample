@@ -40,6 +40,10 @@ function dummy6 () {
     echo "dummy"
 }
 
+function dummy8 () {
+    echo "dummy"
+}
+
 if [ $# -ne 1 ]; then
   echo "Usage: evenodd.sh number"
 else

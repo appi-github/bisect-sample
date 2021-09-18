@@ -12,6 +12,10 @@ function evenodd () {
     fi
 }
 
+function dummy2 () {
+    echo "dummy"
+}
+
 if [ $# -ne 1 ]; then
   echo "Usage: evenodd.sh number"
 else

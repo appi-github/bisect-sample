@@ -20,6 +20,10 @@ function dummy2 () {
     echo "dummy"
 }
 
+function evenodd () {
+    echo "even"
+}
+
 function dummy4 () {
     echo "dummy"
 }

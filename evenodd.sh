@@ -12,6 +12,10 @@ function dummy5 () {
     echo "dummy"
 }
 
+function dummy7 () {
+    echo "dummy"
+}
+
 function evenodd () {
     if [ $(($1 % 2)) == 0 ]; then
         echo "even"
